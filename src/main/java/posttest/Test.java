@@ -15,7 +15,7 @@ import java.util.List;
 public class Test {
     @JsonProperty("testName")
     private String testName;
-    @JsonProperty("expectedResult")
+
     private String expectedResult;
 
     private List<String> params;
@@ -48,5 +48,5 @@ public class Test {
 
     public void setParams(List<String> params) {
         this.params = params;
-
+    }
 }

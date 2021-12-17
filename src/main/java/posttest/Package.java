@@ -11,7 +11,7 @@ import java.util.List;
     "jsScript",
     "functionName",
     "tests"})
-public class Package {
+
     @JsonProperty("packageId") private String packageId;
     @JsonProperty("jsScript") private String jsScript;
     @JsonProperty("functionName") private String functionName;
