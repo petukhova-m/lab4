@@ -58,7 +58,7 @@ public class PostTestApp extends AllDirectives {
         return parameter("packageId", packageID -> {
                 Future<Object> result = Patterns.ask(routerActor,
                 new PackageResultsRequest(Integer.parseInt(packageID)),
-                timeout);
+
                 return completeOKWithFuture(result, Jackson.marshaller());
         });
     }
