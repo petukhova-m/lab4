@@ -12,7 +12,7 @@ public class RouterActor extends AbstractActor {
 
 
         repository = getContext().actorOf(Props.create(RepositoryActor.class));
-
+        tester = getContext().actorOf(new RoundRobinPool(5).props(Props.create(TesterActor.class, repository)));
 
 
 
