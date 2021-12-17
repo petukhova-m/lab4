@@ -27,7 +27,7 @@ public class TestRequest {
     }
 
     public List<String> getArguments() {
-
+        return arguments;
     }
 
     public String getRightResult() {
