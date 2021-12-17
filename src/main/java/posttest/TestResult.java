@@ -5,7 +5,7 @@ public class TestResult {
 
 
 
-
+        this.packageId = packageId;
 
 
 
