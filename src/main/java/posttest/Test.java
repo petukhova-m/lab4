@@ -27,7 +27,7 @@ public class Test {
 
 
     public String getExpectedResult() {
-
+        return expectedResult;
 
 
 
