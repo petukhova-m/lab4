@@ -24,7 +24,7 @@ public class PostTestApp extends AllDirectives {
 
     public static final int timeout = 5000;
     public static void main(String[] args) throws IOException {
-
+        ActorSystem system = ActorSystem.create("routes");
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         PostTestApp instance = new PostTestApp();
