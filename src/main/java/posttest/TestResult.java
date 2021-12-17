@@ -13,7 +13,7 @@ public class TestResult {
         return result;
 
 
-
+    public int getPackageId() {
         return packageId;
 
 
