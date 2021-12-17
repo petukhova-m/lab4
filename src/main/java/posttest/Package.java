@@ -31,7 +31,7 @@ public class Package {
     @JsonProperty("tests")
     public List<Test> getTests() {
         return tests;
-    }
+
     @JsonProperty("packageId")
     public void setPackageId(String packageId) {
         this.packageId = packageId;
