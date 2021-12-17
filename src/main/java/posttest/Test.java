@@ -1,4 +1,4 @@
-package posttest;
+
 
 import com.fasterxml.jackson.annotation.*;
 
@@ -31,7 +31,7 @@ public class Test {
     }
 
     @JsonProperty("params")
-
+    public List<String> getParams() {
         return params;
     }
 
