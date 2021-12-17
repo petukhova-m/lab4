@@ -15,7 +15,7 @@ public class RepositoryActor extends AbstractActor {
     }
 
 
-
+        String result = m.getResult();
 
             initializeId(id);
 
