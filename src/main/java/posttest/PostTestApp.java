@@ -33,7 +33,7 @@ public class PostTestApp extends AllDirectives {
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
 
                 ConnectHttp.toHost("localhost", serverport),
-
+                materializer
         );
         System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
