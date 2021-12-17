@@ -13,7 +13,7 @@ public class TestRequest {
 
         this.function = function;
 
-
+        this.arguments = arguments;
 
 
 
