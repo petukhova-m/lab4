@@ -22,7 +22,7 @@ import akka.stream.javadsl.Flow;
 public class PostTestApp extends AllDirectives {
 
 
-
+    public static final int timeout = 5000;
 
 
         final Http http = Http.get(system);
