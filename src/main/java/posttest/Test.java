@@ -42,7 +42,7 @@ import java.util.List;
 
     @JsonProperty("expectedResult")
 
-
+        this.expectedResult = expectedResult;
     }
 
     @JsonProperty("params")
