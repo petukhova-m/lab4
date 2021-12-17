@@ -3,7 +3,7 @@ package posttest;
 
 import akka.actor.ActorRef;
 
-
+import akka.actor.*;
 import akka.routing.RoundRobinPool;
 
 public class RouterActor extends AbstractActor {
