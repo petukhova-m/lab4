@@ -2,7 +2,7 @@ package posttest;
 
 import com.fasterxml.jackson.annotation.*;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
