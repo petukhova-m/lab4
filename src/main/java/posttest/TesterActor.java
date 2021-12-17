@@ -36,7 +36,7 @@ public class TesterActor extends AbstractActor {
         String[] args = request.getArguments()
 
 
-
+        return invocable.invokeFunction(request.getFunction(), args).toString();
 
     @Override
 
