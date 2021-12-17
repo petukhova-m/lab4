@@ -20,7 +20,7 @@ public class TestResult {
     @Override
 
 
-
+                "packageId=" + packageId +
                 ", result='" + result + "\'" +
                 '}';
     }
