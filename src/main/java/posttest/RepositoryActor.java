@@ -17,7 +17,7 @@ public class RepositoryActor extends AbstractActor {
 
 
 
-
+            initializeId(id);
 
 
 
