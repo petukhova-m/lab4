@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RepositoryActor extends AbstractActor {
-
+    private Map<Integer, ArrayList<String>> repository = new HashMap<>();
 
     private void initializeId(int id) {
         ArrayList<String> resultArray = new ArrayList<>();
