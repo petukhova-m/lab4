@@ -33,7 +33,7 @@ public class RouterActor extends AbstractActor {
 
 
 
-
+                test.getParams(),
                 test.getExpectedResult(),
                 Integer.parseInt(pack.getPackageId()));
 
