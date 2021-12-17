@@ -22,7 +22,7 @@ public class TestRequest {
 
     }
 
-
+    public String getScript() {
         return script;
     }
 
