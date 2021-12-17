@@ -37,7 +37,7 @@ public class Test {
 
 
     public void setTestName(String testName) {
-
+        this.testName = testName;
 
 
     @JsonProperty("expectedResult")
