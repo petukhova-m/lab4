@@ -24,7 +24,7 @@ import akka.routing.RoundRobinPool;
                 .build();
     }
 
-
+    private void runPackage(Package pack) {
         pack.getTests()
                 .stream()
                 .map(test -> generateTestRequest(pack, test))
