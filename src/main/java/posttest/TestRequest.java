@@ -7,7 +7,7 @@ public class TestRequest {
 
 
 
-
+    private String rightResult;
 
 
 
