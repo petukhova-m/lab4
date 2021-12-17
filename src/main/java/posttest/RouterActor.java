@@ -37,7 +37,7 @@ public class RouterActor extends AbstractActor {
                 test.getExpectedResult(),
                 Integer.parseInt(pack.getPackageId()));
     }
-
+    private void getPackageResults(PackageResultsRequest request) {
         repository.tell(request, getSender());
     }
 }
