@@ -53,7 +53,7 @@ public class PostTestApp extends AllDirectives {
                     return complete("Test started!");
                 }
         );
-
+    }
     private Route get(ActorRef routerActor) {
 
                 Future<Object> result = Patterns.ask(routerActor,
