@@ -30,7 +30,7 @@ public class RepositoryActor extends AbstractActor {
 
 
 
-
+                .match(TestResult.class, this::storeResult)
 
 
     }
