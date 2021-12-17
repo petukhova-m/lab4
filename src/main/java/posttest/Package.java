@@ -32,7 +32,7 @@ public class Package {
 
 
 
-
+    @JsonProperty("packageId")
 
 
     }
