@@ -16,6 +16,6 @@ public class PackageResults {
     public PackageResults(int packageId, ArrayList<String> results) {
         this.results = results;
         this.packageId = packageId;
-
+    }
 
 }
