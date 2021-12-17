@@ -13,7 +13,7 @@ import java.util.ArrayList;
 })
 
 public class Test {
-
+    @JsonProperty("testName")
 
 
     private String expectedResult;
