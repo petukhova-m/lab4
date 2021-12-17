@@ -28,7 +28,7 @@ public class RepositoryActor extends AbstractActor {
 
     }
     @Override
-
+    public Receive createReceive() {
 
                 .match(TestResult.class, this::storeResult)
 
