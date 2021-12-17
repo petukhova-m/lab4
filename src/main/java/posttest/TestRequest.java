@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TestRequest {
     private String function;
-
+    private String script;
     private List<String> arguments;
     private String rightResult;
 

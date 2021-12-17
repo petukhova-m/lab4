@@ -21,13 +21,13 @@ public class Test {
     private List<String> params;
 
     @JsonProperty("testName")
-    public String getTestName() {
+
         return testName;
     }
 
     @JsonProperty("expectedResult")
     public String getExpectedResult() {
-        return expectedResult;
+
     }
 
 
