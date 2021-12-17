@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Test {
     @JsonProperty("testName")
-    private String testName;
+
     @JsonProperty("expectedResult")
     private String expectedResult;
 
@@ -35,7 +35,7 @@ public class Test {
 
     }
 
-    @JsonProperty("testName")
+
     public void setTestName(String testName) {
         this.testName = testName;
     }
