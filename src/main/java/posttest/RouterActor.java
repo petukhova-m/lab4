@@ -20,7 +20,7 @@ public class RouterActor extends AbstractActor {
 
         return ReceiveBuilder.create()
 
-
+                .match(PackageResultsRequest.class, this::getPackageResults)
                 .build();
     }
 
