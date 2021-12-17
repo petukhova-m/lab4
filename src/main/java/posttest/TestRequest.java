@@ -32,7 +32,7 @@ public class TestRequest {
 
     public String getRightResult() {
         return rightResult;
-
+    }
 
 
         return packageId;
