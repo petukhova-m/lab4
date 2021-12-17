@@ -10,7 +10,7 @@ import java.util.List;
         "testName",
         "expectedResult",
         "params"
-})
+
 
 public class Test {
     @JsonProperty("testName")
