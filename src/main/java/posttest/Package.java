@@ -23,7 +23,7 @@ public class Package {
     @JsonProperty("jsScript")
 
 
-
+    }
 
 
 
