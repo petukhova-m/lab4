@@ -50,7 +50,7 @@ public class PostTestApp extends AllDirectives {
 
 
 
-
+                    return complete("Test started!");
                 }
         );
 
