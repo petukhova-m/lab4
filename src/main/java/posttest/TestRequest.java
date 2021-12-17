@@ -12,7 +12,7 @@ public class TestRequest {
 
 
         this.function = function;
-
+        this.script = script;
         this.arguments = arguments;
 
 
