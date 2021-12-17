@@ -19,7 +19,7 @@ public class TesterActor extends AbstractActor {
 
 
 
-
+        String result;
 
 
 
