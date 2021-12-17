@@ -33,7 +33,7 @@ public class Package {
         return tests;
     }
     @JsonProperty("packageId")
-
+    public void setPackageId(String packageId) {
         this.packageId = packageId;
     }
     @JsonProperty("jsScript")
