@@ -16,7 +16,7 @@ public class Test {
 
 
 
-
+    private String expectedResult;
 
 
 
