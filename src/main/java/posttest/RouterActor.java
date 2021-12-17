@@ -26,7 +26,7 @@ public class RouterActor extends AbstractActor {
 
 
         pack.getTests()
-
+                .stream()
 
 
 
