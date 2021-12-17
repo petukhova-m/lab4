@@ -34,7 +34,7 @@ public class PostTestApp extends AllDirectives {
                 routeFlow,
                 ConnectHttp.toHost("localhost", serverport),
                 materializer
-
+        );
 
         System.in.read();
         binding.thenCompose(ServerBinding::unbind).thenAccept(unbound -> system.terminate());
