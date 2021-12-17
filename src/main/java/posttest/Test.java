@@ -28,7 +28,7 @@ import java.util.List;
     @JsonProperty("expectedResult")
     public String getExpectedResult() {
 
-    }
+
 
     @JsonProperty("params")
     public List<String> getParams() {
@@ -41,7 +41,7 @@ import java.util.List;
     }
 
     @JsonProperty("expectedResult")
-
+    public void setExpectedResult(String expectedResult) {
         this.expectedResult = expectedResult;
     }
 
