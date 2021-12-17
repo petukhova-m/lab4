@@ -1,6 +1,6 @@
 package posttest;
 
-import com.fasterxml.jackson.annotation.*;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +40,7 @@ public class Test {
         this.testName = testName;
     }
 
-
+    @JsonProperty("expectedResult")
     public void setExpectedResult(String expectedResult) {
 
     }

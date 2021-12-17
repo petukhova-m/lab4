@@ -7,7 +7,7 @@ package posttest;
         this.packageId = packageId;
     }
 
-    public int getPackageId() {
+
 
     }
 }
