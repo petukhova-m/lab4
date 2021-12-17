@@ -6,7 +6,7 @@ import java.util.List;
 public class TestRequest {
     private String function;
 
-
+    private List<String> arguments;
     private String rightResult;
     private int packageId;
 
