@@ -27,7 +27,7 @@ public class TesterActor extends AbstractActor {
         } catch (NoSuchMethodException exception) {
             result = "NoSuchMethodException: " + exception.getLocalizedMessage();
         }
-
+        sendToRepository(request.getPackageId(), result);
     }
 
         ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");

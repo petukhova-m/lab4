@@ -9,7 +9,7 @@ import java.util.List;
 @JsonPropertyOrder({
     "packageId",
     "jsScript",
-    "functionName",
+
     "tests"})
 public class Package {
     @JsonProperty("packageId") private String packageId;

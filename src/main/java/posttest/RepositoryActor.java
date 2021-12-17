@@ -31,7 +31,7 @@ import java.util.Map;
     public Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(TestResult.class, this::storeResult)
-                .match(PackageResultsRequest.class, this::getPackageResults)
+
                 .build();
     }
 }
