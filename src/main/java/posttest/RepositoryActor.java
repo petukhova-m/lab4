@@ -19,7 +19,7 @@ public class RepositoryActor extends AbstractActor {
 
             initializeId(id);
 
-
+        repository.get(id).add(result);
 
     }
 
