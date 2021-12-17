@@ -10,7 +10,7 @@ public class PackageResults {
 
 
     public int getPackageId() {
-
+        return packageId;
 
 
 
