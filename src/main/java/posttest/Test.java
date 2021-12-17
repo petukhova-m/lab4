@@ -15,8 +15,8 @@ import java.util.List;
 
     @JsonProperty("testName")
     private String testName;
-    @JsonProperty("expectedResult")
-    private String expectedResult;
+
+
     @JsonProperty("params")
 
 

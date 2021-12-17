@@ -24,7 +24,7 @@ public class Package {
     public String getJsScript() {
         return jsScript;
     }
-
+    @JsonProperty("functionName")
     public String getFunctionName() {
         return functionName;
     }
@@ -34,7 +34,7 @@ public class Package {
     }
     @JsonProperty("packageId")
     public void setPackageId(String packageId) {
-
+        this.packageId = packageId;
     }
     @JsonProperty("jsScript")
     public void setJsScript(String jsScript) {
