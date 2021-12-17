@@ -42,7 +42,7 @@ public class Package {
 
     @JsonProperty("functionName")
     public void setFunctionName(String functionName) {
-
+        this.functionName = functionName;
     }
     @JsonProperty("tests")
 
