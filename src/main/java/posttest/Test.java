@@ -33,7 +33,7 @@ public class Test {
     @JsonProperty("params")
     public List<String> getParams() {
         return params;
-    }
+
 
     @JsonProperty("testName")
     public void setTestName(String testName) {
