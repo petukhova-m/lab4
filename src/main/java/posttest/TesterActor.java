@@ -30,7 +30,7 @@ public class TesterActor extends AbstractActor {
 
 
 
-
+        ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
 
 
 
