@@ -25,7 +25,7 @@ public class TesterActor extends AbstractActor {
         } catch (ScriptException exception) {
             result = "ScriptException: " + exception.getLocalizedMessage();
 
-
+            result = "NoSuchMethodException: " + exception.getLocalizedMessage();
         }
         sendToRepository(request.getPackageId(), result);
     }
