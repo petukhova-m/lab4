@@ -19,7 +19,7 @@ public class RouterActor extends AbstractActor {
     @Override
     public AbstractActor.Receive createReceive() {
         return ReceiveBuilder.create()
-
+                .match(Package.class, this::runPackage)
                 .match(PackageResultsRequest.class, this::getPackageResults)
                 .build();
     }
