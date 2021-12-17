@@ -15,7 +15,7 @@ public class TesterActor extends AbstractActor {
     public TesterActor(ActorRef repository) {
 
 
-
+    public void sendToRepository(int packageId, String result) {
         repository.tell(new TestResult(packageId, result), ActorRef.noSender());
     }
     public void testRun(TestRequest request) {
