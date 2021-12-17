@@ -5,7 +5,7 @@ public class PackageResultsRequest {
 
     public PackageResultsRequest(int packageId) {
 
-
+    }
 
 
 
