@@ -15,7 +15,7 @@ public class TestRequest {
         this.script = script;
         this.arguments = arguments;
         this.rightResult = rightResult;
-
+        this.packageId = packageId;
     }
 
     public String getFunction() {
