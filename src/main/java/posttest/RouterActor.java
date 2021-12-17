@@ -31,7 +31,7 @@ public class RouterActor extends AbstractActor {
 
     }
     private TestRequest generateTestRequest(Package pack, Test test) {
-
+        return new TestRequest(pack.getFunctionName(),
 
                 test.getParams(),
                 test.getExpectedResult(),
