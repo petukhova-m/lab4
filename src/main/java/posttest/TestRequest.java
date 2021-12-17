@@ -8,7 +8,7 @@ public class TestRequest {
 
 
     private String rightResult;
-
+    private int packageId;
 
 
         this.function = function;
