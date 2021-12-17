@@ -20,7 +20,7 @@ import scala.concurrent.Future;
 
 
 public class PostTestApp extends AllDirectives {
-
+    public static final int serverport = 8080;
 
     public static final int timeout = 5000;
     public static void main(String[] args) throws IOException {
