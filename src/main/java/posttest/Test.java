@@ -27,7 +27,7 @@ public class Test {
 
     @JsonProperty("expectedResult")
     public String getExpectedResult() {
-
+        return expectedResult;
 
 
     @JsonProperty("params")
@@ -49,4 +49,4 @@ public class Test {
     public void setParams(List<String> params) {
         this.params = params;
     }
-
+}
