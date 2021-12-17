@@ -24,7 +24,7 @@ public class Package {
     public String getJsScript() {
         return jsScript;
     }
-
+    @JsonProperty("functionName")
     public String getFunctionName() {
         return functionName;
     }
