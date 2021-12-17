@@ -47,7 +47,7 @@ public class PostTestApp extends AllDirectives {
         );
     }
 
-
+        return entity(Jackson.unmarshaller(Package.class),
                 msg -> {
                     routerActor.tell(msg, ActorRef.noSender());
                     return complete("Test started!");
