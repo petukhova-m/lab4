@@ -18,7 +18,7 @@ import java.util.List;
 
 
     @JsonProperty("params")
-
+    private List<String> params;
 
     @JsonProperty("testName")
     public String getTestName() {
