@@ -13,7 +13,7 @@ import java.util.List;
     "tests"})
 public class Package {
     @JsonProperty("packageId") private String packageId;
-
+    @JsonProperty("jsScript") private String jsScript;
     @JsonProperty("functionName") private String functionName;
     @JsonProperty("tests") private List<Test> tests;
     @JsonProperty("packageId")
