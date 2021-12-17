@@ -17,7 +17,7 @@ public class Test {
     private String testName;
 
 
-    @JsonProperty("params")
+
     private List<String> params;
 
     @JsonProperty("testName")
