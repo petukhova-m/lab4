@@ -26,7 +26,7 @@ public class TesterActor extends AbstractActor {
             result = "ScriptException: " + exception.getLocalizedMessage();
 
 
-
+        }
         sendToRepository(request.getPackageId(), result);
     }
     public String eval(TestRequest request) throws ScriptException, NoSuchMethodException {
