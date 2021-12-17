@@ -22,7 +22,7 @@ public class Test {
 
     @JsonProperty("testName")
     public String getTestName() {
-        return testName;
+
     }
 
     @JsonProperty("expectedResult")
