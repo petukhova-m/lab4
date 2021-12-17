@@ -23,7 +23,7 @@ public class RepositoryActor extends AbstractActor {
         System.out.println("result of test saved " + m.toString());
     }
 
-        int id = m.getPackageId();
+
         sender().tell(new PackageResults(id, repository.get(id)),
                       getSelf());
     }
