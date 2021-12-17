@@ -20,7 +20,7 @@ public class Package {
     public String getPackageId() {
         return packageId;
     }
-    @JsonProperty("jsScript")
+
     public String getJsScript() {
         return jsScript;
     }
@@ -44,7 +44,7 @@ public class Package {
     public void setFunctionName(String functionName) {
         this.functionName = functionName;
     }
-
+    @JsonProperty("tests")
     public void setTests(List<Test> tests) {
         this.tests = tests;
     }

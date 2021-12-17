@@ -10,7 +10,7 @@ import java.util.List;
         "testName",
         "expectedResult",
 
-
+})
 
 public class Test {
     @JsonProperty("testName")
@@ -22,7 +22,7 @@ public class Test {
 
     @JsonProperty("testName")
     public String getTestName() {
-        return testName;
+
     }
 
     @JsonProperty("expectedResult")
@@ -36,11 +36,11 @@ public class Test {
     }
 
     @JsonProperty("testName")
-    public void setTestName(String testName) {
+
         this.testName = testName;
     }
 
-    @JsonProperty("expectedResult")
+
     public void setExpectedResult(String expectedResult) {
         this.expectedResult = expectedResult;
     }
