@@ -40,7 +40,7 @@ public class Test {
         this.testName = testName;
     }
 
-
+    @JsonProperty("expectedResult")
     public void setExpectedResult(String expectedResult) {
         this.expectedResult = expectedResult;
 
