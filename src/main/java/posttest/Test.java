@@ -10,10 +10,10 @@ import java.util.List;
         "testName",
         "expectedResult",
         "params"
-})
+
 
 public class Test {
-
+    @JsonProperty("testName")
     private String testName;
     @JsonProperty("expectedResult")
     private String expectedResult;
@@ -43,7 +43,7 @@ public class Test {
     @JsonProperty("expectedResult")
     public void setExpectedResult(String expectedResult) {
         this.expectedResult = expectedResult;
-
+    }
 
     @JsonProperty("params")
     public void setParams(List<String> params) {
