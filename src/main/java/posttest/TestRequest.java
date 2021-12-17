@@ -14,7 +14,7 @@ public class TestRequest {
         this.function = function;
         this.script = script;
         this.arguments = arguments;
-
+        this.rightResult = rightResult;
         this.packageId = packageId;
     }
 
