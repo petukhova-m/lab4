@@ -28,7 +28,7 @@ public class TesterActor extends AbstractActor {
 
 
         sendToRepository(request.getPackageId(), result);
-
+    }
     public String eval(TestRequest request) throws ScriptException, NoSuchMethodException {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
         engine.eval(request.getScript());
