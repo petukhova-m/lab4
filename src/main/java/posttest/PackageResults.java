@@ -7,7 +7,7 @@ public class PackageResults {
 
     public ArrayList<String> getResults() {
         return results;
-
+    }
 
     public int getPackageId() {
         return packageId;
