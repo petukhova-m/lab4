@@ -34,7 +34,7 @@ public class TesterActor extends AbstractActor {
         engine.eval(request.getScript());
         Invocable invocable = (Invocable) engine;
         String[] args = request.getArguments()
-
+                .toArray(new String[request.getArguments().size()]);
 
         return invocable.invokeFunction(request.getFunction(), args).toString();
 
