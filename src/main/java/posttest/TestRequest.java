@@ -8,7 +8,7 @@ public class TestRequest {
 
     private List<String> arguments;
     private String rightResult;
-    private int packageId;
+
 
     public TestRequest(String function, String script, List<String> arguments, String rightResult, int packageId) {
         this.function = function;
