@@ -10,4 +10,4 @@ public class PackageResultsRequest {
     public int getPackageId() {
         return packageId;
     }
-
+}
