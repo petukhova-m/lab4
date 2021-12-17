@@ -8,7 +8,7 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 
     "packageId",
-
+    "jsScript",
     "functionName",
     "tests"})
 public class Package {
