@@ -29,7 +29,7 @@ public class Package {
         return functionName;
     }
     @JsonProperty("tests")
-    public List<Test> getTests() {
+
         return tests;
     }
     @JsonProperty("packageId")

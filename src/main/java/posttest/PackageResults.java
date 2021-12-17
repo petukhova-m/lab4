@@ -13,9 +13,9 @@ public class PackageResults {
         return packageId;
     }
 
-    public PackageResults(int packageId, ArrayList<String> results) {
+
         this.results = results;
         this.packageId = packageId;
     }
 
-}
+
