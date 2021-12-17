@@ -30,7 +30,7 @@ public class TestRequest {
 
 
 
-
+    public String getRightResult() {
 
 
 
