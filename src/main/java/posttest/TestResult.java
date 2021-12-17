@@ -2,7 +2,7 @@ package posttest;
 
 public class TestResult {
     private int packageId;
-
+    private String result;
 
     public TestResult(int packageId, String result) {
         this.packageId = packageId;
