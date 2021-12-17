@@ -8,7 +8,7 @@ import akka.actor.ActorRef;
 
 public class RouterActor extends AbstractActor {
     private ActorRef repository;
-
+    private ActorRef tester;
 
 
         repository = getContext().actorOf(Props.create(RepositoryActor.class));
