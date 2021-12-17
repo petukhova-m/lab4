@@ -9,7 +9,7 @@ public class TestResult {
         this.result = result;
     }
 
-
+    public String getResult() {
         return result;
     }
 
