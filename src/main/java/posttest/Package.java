@@ -38,7 +38,7 @@ public class Package {
     }
 
 
-
+        this.jsScript = jsScript;
 
     @JsonProperty("functionName")
 
