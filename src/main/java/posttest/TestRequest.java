@@ -26,7 +26,7 @@ public class TestRequest {
         return script;
     }
 
-
+    public List<String> getArguments() {
 
     }
 
