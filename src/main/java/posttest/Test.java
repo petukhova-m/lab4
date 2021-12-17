@@ -21,7 +21,7 @@ public class Test {
     private List<String> params;
 
     @JsonProperty("testName")
-
+    public String getTestName() {
         return testName;
     }
 
