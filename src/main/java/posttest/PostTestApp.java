@@ -48,7 +48,7 @@ public class PostTestApp extends AllDirectives {
     }
 
 
-
+                msg -> {
                     routerActor.tell(msg, ActorRef.noSender());
                     return complete("Test started!");
                 }
