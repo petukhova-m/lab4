@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.*;
 import java.util.ArrayList;
 
 
-
+@JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
         "testName",
         "expectedResult",
