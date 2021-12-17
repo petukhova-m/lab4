@@ -18,7 +18,7 @@ public class TestRequest {
         this.packageId = packageId;
     }
 
-
+    public String getFunction() {
 
 
 
