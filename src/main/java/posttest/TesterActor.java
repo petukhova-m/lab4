@@ -32,7 +32,7 @@ public class TesterActor extends AbstractActor {
     public String eval(TestRequest request) throws ScriptException, NoSuchMethodException {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
         engine.eval(request.getScript());
-        Invocable invocable = (Invocable) engine;
+
         String[] args = request.getArguments()
                 .toArray(new String[request.getArguments().size()]);
 
