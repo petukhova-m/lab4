@@ -41,7 +41,7 @@ public class Test {
     }
 
     @JsonProperty("expectedResult")
-    public void setExpectedResult(String expectedResult) {
+
         this.expectedResult = expectedResult;
     }
 

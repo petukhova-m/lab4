@@ -35,7 +35,7 @@ public class Package {
     @JsonProperty("packageId")
     public void setPackageId(String packageId) {
         this.packageId = packageId;
-    }
+
     @JsonProperty("jsScript")
     public void setJsScript(String jsScript) {
         this.jsScript = jsScript;
