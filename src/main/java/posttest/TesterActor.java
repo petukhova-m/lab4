@@ -39,7 +39,7 @@ public class TesterActor extends AbstractActor {
         return invocable.invokeFunction(request.getFunction(), args).toString();
 
     @Override
-
+    public Receive createReceive() {
 
                 .match(TestRequest.class, this::testRun)
                 .build();
