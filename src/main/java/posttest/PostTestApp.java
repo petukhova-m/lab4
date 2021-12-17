@@ -57,7 +57,7 @@ public class PostTestApp extends AllDirectives {
     private Route get(ActorRef routerActor) {
 
 
-
+                new PackageResultsRequest(Integer.parseInt(packageID)),
                 timeout);
                 return completeOKWithFuture(result, Jackson.marshaller());
 
