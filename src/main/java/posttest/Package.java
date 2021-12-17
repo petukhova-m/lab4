@@ -44,7 +44,7 @@ public class Package {
     public void setFunctionName(String functionName) {
         this.functionName = functionName;
     }
-    @JsonProperty("tests")
+
     public void setTests(List<Test> tests) {
         this.tests = tests;
     }
