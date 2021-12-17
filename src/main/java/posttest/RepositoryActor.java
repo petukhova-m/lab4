@@ -10,7 +10,7 @@ public class RepositoryActor extends AbstractActor {
 
 
     private void initializeId(int id) {
-
+        ArrayList<String> resultArray = new ArrayList<>();
 
     }
 
