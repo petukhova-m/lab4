@@ -30,7 +30,7 @@ public class RouterActor extends AbstractActor {
                 .map(test -> generateTestRequest(pack, test))
 
     }
-
+    private TestRequest generateTestRequest(Package pack, Test test) {
 
 
                 test.getParams(),
