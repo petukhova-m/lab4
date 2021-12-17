@@ -2,7 +2,7 @@ package posttest;
 
 import com.fasterxml.jackson.annotation.*;
 
-
+import java.util.ArrayList;
 import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -48,5 +48,5 @@ public class Test {
 
     public void setParams(List<String> params) {
         this.params = params;
-    }
+
 }
