@@ -19,7 +19,7 @@ public class TestResult {
 
     @Override
     public String toString() {
-
+        return "posttest.TestResult{" +
                 "packageId=" + packageId +
                 ", result='" + result + "\'" +
                 '}';
