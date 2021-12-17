@@ -33,7 +33,7 @@ public class Test {
 
     public List<String> getParams() {
         return params;
-
+    }
 
 
     public void setTestName(String testName) {
