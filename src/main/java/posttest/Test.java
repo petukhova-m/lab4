@@ -31,7 +31,7 @@ public class Test {
 
 
 
-
+    public List<String> getParams() {
         return params;
 
 
