@@ -7,7 +7,7 @@ public class PackageResultsRequest {
 
     }
 
-
+    public int getPackageId() {
 
     }
 }
