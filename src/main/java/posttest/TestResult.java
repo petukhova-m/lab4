@@ -15,7 +15,7 @@ public class TestResult {
 
     public int getPackageId() {
         return packageId;
-
+    }
 
     @Override
 
