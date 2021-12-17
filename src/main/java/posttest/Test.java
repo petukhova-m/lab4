@@ -25,7 +25,7 @@ public class Test {
         return testName;
     }
 
-
+    @JsonProperty("expectedResult")
     public String getExpectedResult() {
         return expectedResult;
     }
