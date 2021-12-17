@@ -18,7 +18,7 @@ public class Test {
     @JsonProperty("expectedResult")
     private String expectedResult;
 
-    private List<String> params;
+
 
     @JsonProperty("testName")
     public String getTestName() {
@@ -38,7 +38,7 @@ public class Test {
     @JsonProperty("testName")
     public void setTestName(String testName) {
         this.testName = testName;
-
+    }
 
 
     public void setExpectedResult(String expectedResult) {
