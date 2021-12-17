@@ -10,7 +10,7 @@ import java.util.List;
     "packageId",
 
     "functionName",
-
+    "tests"})
 public class Package {
 
 
