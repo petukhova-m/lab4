@@ -30,7 +30,7 @@ public class PostTestApp extends AllDirectives {
         PostTestApp instance = new PostTestApp();
 
         routeFlow = instance.createRoute(system).flow(system, materializer);
-
+        final CompletionStage<ServerBinding> binding = http.bindAndHandle(
 
 
 
