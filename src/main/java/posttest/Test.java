@@ -40,7 +40,7 @@ public class Test {
 
 
 
-
+    @JsonProperty("expectedResult")
 
 
     }
