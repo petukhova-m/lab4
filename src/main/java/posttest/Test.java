@@ -43,7 +43,7 @@ public class Test {
 
     public void setExpectedResult(String expectedResult) {
         this.expectedResult = expectedResult;
-    }
+
 
     @JsonProperty("params")
     public void setParams(List<String> params) {

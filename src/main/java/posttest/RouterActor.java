@@ -27,7 +27,7 @@ public class RouterActor extends AbstractActor {
     private void runPackage(Package pack) {
         pack.getTests()
                 .stream()
-
+                .map(test -> generateTestRequest(pack, test))
                 .forEach(request -> tester.tell(request, repository));
     }
     private TestRequest generateTestRequest(Package pack, Test test) {
