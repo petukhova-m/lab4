@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestRequest {
-
+    private String function;
 
 
     private String rightResult;
