@@ -31,7 +31,7 @@ public class Test {
     }
 
     @JsonProperty("params")
-    public List<String> getParams() {
+
 
     }
 
