@@ -19,7 +19,7 @@ public class TestResult {
 
     @Override
 
-
+        return "posttest.TestResult{" +
                 "packageId=" + packageId +
                 ", result='" + result + "\'" +
                 '}';
