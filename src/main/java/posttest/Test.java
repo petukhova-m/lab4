@@ -18,7 +18,7 @@ public class Test {
     @JsonProperty("expectedResult")
     private String expectedResult;
 
-
+    private List<String> params;
 
     @JsonProperty("testName")
     public String getTestName() {
