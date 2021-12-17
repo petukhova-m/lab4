@@ -23,7 +23,7 @@ public class Package {
     @JsonProperty("jsScript")
     public String getJsScript() {
         return jsScript;
-
+    }
 
     public String getFunctionName() {
         return functionName;
