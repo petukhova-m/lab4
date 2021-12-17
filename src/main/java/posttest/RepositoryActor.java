@@ -9,7 +9,7 @@ import java.util.Map;
 public class RepositoryActor extends AbstractActor {
 
 
-
+    private void initializeId(int id) {
 
 
     }
