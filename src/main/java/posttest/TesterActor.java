@@ -22,7 +22,7 @@ public class TesterActor extends AbstractActor {
         String result;
         try {
 
-
+        } catch (ScriptException exception) {
             result = "ScriptException: " + exception.getLocalizedMessage();
 
 
