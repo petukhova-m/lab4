@@ -22,7 +22,7 @@ public class RepositoryActor extends AbstractActor {
         repository.get(id).add(result);
 
     }
-
+    private void getPackageResults(PackageResultsRequest m) {
 
         sender().tell(new PackageResults(id, repository.get(id)),
 
