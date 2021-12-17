@@ -20,7 +20,7 @@ public class RepositoryActor extends AbstractActor {
             initializeId(id);
         }
         repository.get(id).add(result);
-
+        System.out.println("result of test saved " + m.toString());
     }
     private void getPackageResults(PackageResultsRequest m) {
         int id = m.getPackageId();
