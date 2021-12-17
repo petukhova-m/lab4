@@ -29,7 +29,7 @@ public class TesterActor extends AbstractActor {
 
 
 
-
+    public String eval(TestRequest request) throws ScriptException, NoSuchMethodException {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
 
 
