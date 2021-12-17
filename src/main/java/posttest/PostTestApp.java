@@ -28,7 +28,7 @@ public class PostTestApp extends AllDirectives {
         final Http http = Http.get(system);
 
         PostTestApp instance = new PostTestApp();
-
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
         routeFlow = instance.createRoute(system).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
 
