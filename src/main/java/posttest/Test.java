@@ -45,7 +45,7 @@ public class Test {
 
 
 
-
+    @JsonProperty("params")
 
         this.params = params;
 
