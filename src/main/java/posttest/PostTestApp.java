@@ -32,7 +32,7 @@ public class PostTestApp extends AllDirectives {
         routeFlow = instance.createRoute(system).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
 
-
+                ConnectHttp.toHost("localhost", serverport),
 
         );
 
