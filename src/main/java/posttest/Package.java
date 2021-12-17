@@ -41,7 +41,7 @@ public class Package {
         this.jsScript = jsScript;
 
     @JsonProperty("functionName")
-
+    public void setFunctionName(String functionName) {
 
     }
     @JsonProperty("tests")
