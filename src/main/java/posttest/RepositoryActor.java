@@ -19,7 +19,7 @@ public class RepositoryActor extends AbstractActor {
         if (!repository.containsKey(id)) {
             initializeId(id);
         }
-        repository.get(id).add(result);
+
         System.out.println("result of test saved " + m.toString());
     }
 

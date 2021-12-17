@@ -16,7 +16,7 @@ public class Test {
     @JsonProperty("testName")
     private String testName;
     @JsonProperty("expectedResult")
-
+    private String expectedResult;
 
     private List<String> params;
 
@@ -31,13 +31,13 @@ public class Test {
 
 
     @JsonProperty("params")
-    public List<String> getParams() {
+
         return params;
     }
 
     @JsonProperty("testName")
     public void setTestName(String testName) {
-        this.testName = testName;
+
     }
 
     @JsonProperty("expectedResult")
