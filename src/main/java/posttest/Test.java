@@ -35,7 +35,7 @@ public class Test {
         return params;
     }
 
-
+    @JsonProperty("testName")
     public void setTestName(String testName) {
         this.testName = testName;
     }
