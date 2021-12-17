@@ -11,7 +11,7 @@ public class TestRequest {
 
 
 
-
+        this.function = function;
 
 
 
