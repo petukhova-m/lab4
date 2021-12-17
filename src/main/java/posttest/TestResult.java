@@ -17,7 +17,7 @@ public class TestResult {
         return packageId;
     }
 
-    @Override
+
     public String toString() {
         return "posttest.TestResult{" +
                 "packageId=" + packageId +
