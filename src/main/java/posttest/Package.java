@@ -21,7 +21,7 @@ import java.util.List;
         return packageId;
     }
     @JsonProperty("jsScript")
-    public String getJsScript() {
+
         return jsScript;
     }
     @JsonProperty("functionName")

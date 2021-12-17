@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-    private Map<Integer, ArrayList<String>> repository = new HashMap<>();
+
 
     private void initializeId(int id) {
         ArrayList<String> resultArray = new ArrayList<>();
