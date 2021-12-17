@@ -19,7 +19,7 @@ public class Package {
 
 
 
-
+    }
     @JsonProperty("jsScript")
 
         return jsScript;
