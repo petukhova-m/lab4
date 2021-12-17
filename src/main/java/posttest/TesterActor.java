@@ -21,7 +21,7 @@ public class TesterActor extends AbstractActor {
     public void testRun(TestRequest request) {
         String result;
         try {
-
+            result = eval(request).equals(request.getRightResult()) ? "Test passed" : "Test not passed";
         } catch (ScriptException exception) {
             result = "ScriptException: " + exception.getLocalizedMessage();
         } catch (NoSuchMethodException exception) {
