@@ -59,7 +59,7 @@ public class PostTestApp extends AllDirectives {
 
 
                 timeout);
-
+                return completeOKWithFuture(result, Jackson.marshaller());
 
 
 }
