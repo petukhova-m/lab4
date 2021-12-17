@@ -46,6 +46,6 @@ public class Package {
     }
     @JsonProperty("tests")
 
-
+        this.tests = tests;
 
 }
