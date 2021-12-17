@@ -14,7 +14,7 @@ public class RepositoryActor extends AbstractActor {
 
     }
 
-
+        int id = m.getPackageId();
         String result = m.getResult();
         if (!repository.containsKey(id)) {
             initializeId(id);
