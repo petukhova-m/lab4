@@ -55,7 +55,7 @@ public class PostTestApp extends AllDirectives {
         );
     }
     private Route get(ActorRef routerActor) {
-
+        return parameter("packageId", packageID -> {
                 Future<Object> result = Patterns.ask(routerActor,
                 new PackageResultsRequest(Integer.parseInt(packageID)),
                 timeout);
