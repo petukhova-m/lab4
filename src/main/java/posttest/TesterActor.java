@@ -37,7 +37,7 @@ public class TesterActor extends AbstractActor {
                 .toArray(new String[request.getArguments().size()]);
 
         return invocable.invokeFunction(request.getFunction(), args).toString();
-    }
+
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
