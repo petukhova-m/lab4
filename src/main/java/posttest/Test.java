@@ -30,7 +30,7 @@ public class Test {
         return expectedResult;
     }
 
-
+    @JsonProperty("params")
     public List<String> getParams() {
         return params;
     }
