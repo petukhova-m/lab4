@@ -20,7 +20,7 @@ public class Package {
     public String getPackageId() {
         return packageId;
 
-
+    @JsonProperty("jsScript")
     public String getJsScript() {
         return jsScript;
     }
