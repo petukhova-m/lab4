@@ -20,7 +20,7 @@ public class TesterActor extends AbstractActor {
 
 
         String result;
-
+        try {
 
 
             result = "ScriptException: " + exception.getLocalizedMessage();
