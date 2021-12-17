@@ -43,5 +43,5 @@ public class TesterActor extends AbstractActor {
 
                 .match(TestRequest.class, this::testRun)
                 .build();
-
+    }
 }
