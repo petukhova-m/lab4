@@ -11,7 +11,7 @@ public class RouterActor extends AbstractActor {
 
 
 
-
+        repository = getContext().actorOf(Props.create(RepositoryActor.class));
 
 
 
