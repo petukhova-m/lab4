@@ -34,7 +34,7 @@ public class TestRequest {
         return rightResult;
     }
 
-    public int getPackageId() {
+
         return packageId;
     }
 }
