@@ -19,7 +19,7 @@ public class TestRequest {
     }
 
     public String getFunction() {
-
+        return function;
     }
 
     public String getScript() {
