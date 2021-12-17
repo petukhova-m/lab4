@@ -1,4 +1,4 @@
-package posttest;
+
 
 public class PackageResultsRequest {
     private int packageId;
