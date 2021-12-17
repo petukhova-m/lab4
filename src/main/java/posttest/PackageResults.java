@@ -9,7 +9,7 @@ public class PackageResults {
         return results;
     }
 
-    public int getPackageId() {
+
         return packageId;
     }
 
