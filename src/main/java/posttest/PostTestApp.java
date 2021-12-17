@@ -54,7 +54,7 @@ public class PostTestApp extends AllDirectives {
 
         );
 
-
+    private Route get(ActorRef routerActor) {
 
 
 
