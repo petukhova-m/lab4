@@ -47,6 +47,6 @@ public class Test {
 
 
 
-
+        this.params = params;
 
 }
