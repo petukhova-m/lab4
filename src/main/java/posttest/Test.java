@@ -38,7 +38,7 @@ public class Test {
     @JsonProperty("testName")
     public void setTestName(String testName) {
         this.testName = testName;
-
+    }
 
     @JsonProperty("expectedResult")
     public void setExpectedResult(String expectedResult) {
