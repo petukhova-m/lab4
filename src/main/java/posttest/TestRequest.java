@@ -11,7 +11,7 @@ public class TestRequest {
     private int packageId;
 
     public TestRequest(String function, String script, List<String> arguments, String rightResult, int packageId) {
-        this.function = function;
+
         this.script = script;
         this.arguments = arguments;
         this.rightResult = rightResult;
