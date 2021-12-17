@@ -19,6 +19,31 @@
 
 
 
+public class PostTestApp extends AllDirectives {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        );
+
+
+
+
+
+
+
+
+                    get(routerActor)
 
 
 
@@ -37,29 +62,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
