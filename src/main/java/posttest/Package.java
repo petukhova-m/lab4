@@ -18,7 +18,7 @@ public class Package {
     @JsonProperty("tests") private List<Test> tests;
     @JsonProperty("packageId")
     public String getPackageId() {
-
+        return packageId;
     }
     @JsonProperty("jsScript")
     public String getJsScript() {
