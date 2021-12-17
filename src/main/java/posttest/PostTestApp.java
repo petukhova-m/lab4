@@ -46,7 +46,7 @@ public class PostTestApp extends AllDirectives {
                     get(routerActor)
         );
     }
-
+    private Route post(ActorRef routerActor) {
         return entity(Jackson.unmarshaller(Package.class),
                 msg -> {
                     routerActor.tell(msg, ActorRef.noSender());
