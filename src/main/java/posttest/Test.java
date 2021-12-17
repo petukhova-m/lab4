@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class Test {
     @JsonProperty("testName")
-
+    private String testName;
     @JsonProperty("expectedResult")
     private String expectedResult;
     @JsonProperty("params")
