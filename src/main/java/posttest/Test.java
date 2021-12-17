@@ -9,7 +9,7 @@ import java.util.List;
 @JsonPropertyOrder({
         "testName",
         "expectedResult",
-
+        "params"
 })
 
 public class Test {
