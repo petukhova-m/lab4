@@ -19,7 +19,7 @@ import java.util.Map;
         if (!repository.containsKey(id)) {
             initializeId(id);
         }
-
+        repository.get(id).add(result);
         System.out.println("result of test saved " + m.toString());
 
     private void getPackageResults(PackageResultsRequest m) {
